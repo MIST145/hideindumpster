@@ -246,6 +246,7 @@ Citizen.CreateThread(function()
             end
         end
         Wait(sleep)
+        SetFollowPedCamViewMode(1)
     end
 end)
 
